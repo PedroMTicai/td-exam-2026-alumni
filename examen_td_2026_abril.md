@@ -12,7 +12,7 @@
 - C) Ejecuta contenedores directamente
 - D) Puede usar afinidad/anti-afinidad
 
-**Solución:A,B,D** 
+**Solución:A,B** 
 
 ## **2. Sobre el API Server, elige las respuestas correctas:**
 
@@ -84,7 +84,7 @@
 - C) LoadBalancer depende del proveedor cloud
 - D) Ingress es un tipo de recurso Service
 
-**Solución:A,B,C**
+**Solución:A,C**
 
 ## **10. Selecciona que afirmación es incorrecta sobre Cloud Functions y Cloud Run**
 - A) Cloud Functions es mejor para fragmentos de código pequeños basados en eventos
@@ -110,7 +110,7 @@
 - C) Se usan para secretos
 - D) Se pueden inyectar como variables de entorno
 
-**Solución:**
+**Solución:B,C**
 
 ## **13. Elige la respuesta correcta sobre Cloud Functions (2nd Gen)**
 - A) Está construida sobre Cloud Run y Eventarc
@@ -145,7 +145,7 @@
 - C) El formato utilizado para definir los workflows es únicamente JSON
 - D) Un repositorio puede tener múltiples archivos de workflow para diferentes eventos
 
-**Solución:**
+**Solución:B,D**
 
 ## **17. Elige las respuestas correctas sobre Prometheus**
 - A) Prometheus utiliza un modelo "Push" para recolectar todas las métricas
@@ -153,7 +153,7 @@
 - C) Las métricas se almacenan en una base de datos de series temporales
 - D) No soporta el descubrimiento dinámico de servicios
 
-**Solución:**
+**Solución:C**
 
 ## **18. Elige las respuestas correctas sobre GitHub Actions**
 - A) Un "Job" es un conjunto de pasos que se ejecutan en el mismo runner
@@ -177,4 +177,4 @@
 - C) `terraform refresh` actualiza el estado local con los cambios hechos manualmente en la nube
 - D) El estado solo puede guardarse de forma local en el disco del desarrollador
 
-**Solución:A** 
+**Solución:A,C** 
