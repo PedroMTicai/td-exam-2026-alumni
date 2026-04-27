@@ -12,7 +12,7 @@
 - C) Ejecuta contenedores directamente
 - D) Puede usar afinidad/anti-afinidad
 
-**Solución:** 
+**Solución:A,B,D** 
 
 ## **2. Sobre el API Server, elige las respuestas correctas:**
 
@@ -21,7 +21,7 @@
 - C) Almacena estado directamente en etcd
 - D) Ejecuta Pods
 
-**Solución:** 
+**Solución:A,B** 
 
 
 ## **3. Elige la respuesta correcta sobre Terraform**
@@ -30,7 +30,7 @@
 - C) `terraform apply` ejecuta los cambios propuestos en la infraestructura
 - D) `terraform output` borra el estado actual
 
-**Solución:** 
+**Solución:C** 
 
 ## **4. Sobre Pods, elige las respuestas correctas:**
 
@@ -39,7 +39,7 @@
 - C) Siempre contienen un solo contenedor
 - D) Se reprograman automáticamente si fallan
 
-**Solución:** 
+**Solución:A,B** 
 
 ## **5. Sobre ReplicaSet, elige las respuestas correctas:**
 
@@ -48,7 +48,7 @@
 - C) Permite rollout directamente
 - D) Es usado por Deployments
 
-**Solución:** 
+**Solución:A,B,D** 
 
 ## **6. Sobre Deployments, elige las respuestas correctas:**
 
@@ -57,7 +57,7 @@
 - C) Gestionan directamente nodos
 - D) Permiten estrategias de actualización
 
-**Solución:**
+**Solución:A,B,D**
 
 ## **7. Selecciona que afirmación es incorrecta sobre Git y el comando Cherry-pick**
 - A) `git cherry-pick <hash>` aplica los cambios de un commit específico a la rama actual
@@ -65,7 +65,7 @@
 - C) Crea un commit totalmente nuevo con un nuevo hash
 - D) Borra el commit original de la rama de origen
 
-**Solución:**
+**Solución:D**
 
 
 ## **8. Sobre StatefulSets, elige las respuestas correctas:**
@@ -75,7 +75,7 @@
 - C) No permiten escalado
 - D) Usan ReplicaSets por debajo
 
-**Solución:**
+**Solución:A,B**
 
 ## **9. Elige las respuestas correctas sobre Services:**
 
@@ -84,7 +84,7 @@
 - C) LoadBalancer depende del proveedor cloud
 - D) Ingress es un tipo de recurso Service
 
-**Solución:**
+**Solución:A,B,C**
 
 ## **10. Selecciona que afirmación es incorrecta sobre Cloud Functions y Cloud Run**
 - A) Cloud Functions es mejor para fragmentos de código pequeños basados en eventos
@@ -92,7 +92,7 @@
 - C) Cloud Functions no permite escalar a cero
 - D) Cloud Run cobra por el tiempo que la instancia está procesando peticiones
 
-**Solución:**
+**Solución:C**
 
 ## **11. Elige las respuestas correctas sobre StorageClass:**
 
@@ -101,7 +101,7 @@
 - C) Es necesario para PV estáticos
 - D) Puede definir parámetros del almacenamiento
 
-**Solución:** 
+**Solución:A,B,D** 
 
 ## **12. Elige las respuestas correctas respecto a los ConfigMaps:**
 
@@ -112,13 +112,13 @@
 
 **Solución:**
 
-## **13. Elige las respuesta correcta sobre Cloud Functions (2nd Gen)**
+## **13. Elige la respuesta correcta sobre Cloud Functions (2nd Gen)**
 - A) Está construida sobre Cloud Run y Eventarc
 - B) Solo puede ser activada por peticiones TCP
 - C) Solo puede ser activada por peticiones HTTP
 - D) No permite control sobre la concurrencia de las instancias
 
-**Solución:**
+**Solución:A**
 
 ## **14. Elige las respuestas correctas sobre IAM:**
 
@@ -127,7 +127,7 @@
 - C) Es solo para usuarios humanos
 - D) Permite cuentas de servicio
 
-**Solución:**
+**Solución:A,B,D**
 
 
 ## **15. Elige las respuestas correctas respecto a comandos Git**
@@ -136,7 +136,7 @@
 - C) `git switch -c <nombre>` es una alternativa moderna para crear y cambiar de rama
 - D) `git commit -m` sirve para fusionar ramas
 
-**Solución:**
+**Solución:B,C**
 
 
 ## **16. Elige las respuestas correctas respecto a los workflows de GitHub Actions**
@@ -161,7 +161,7 @@
 - C) Un workflow puede contener múltiples "Jobs" que se ejecutan en paralelo por defecto
 - D) La sección `on:` define los eventos que disparan el workflow
 
-**Solución:** 
+**Solución:A,C,D** 
 
 ## **19. Que afirmación es correcta sobre Google Cloud Logging**
 - A) Cloud Logging permite centralizar los logs de Cloud Run, GKE y Cloud Functions
@@ -169,7 +169,7 @@
 - C) `gcloud logging get` permite consultar logs desde la terminal
 - D) Los logs de Cloud Run se borran inmediatamente después de que la instancia se detiene
 
-**Solución:** 
+**Solución:A** 
 
 ## **20. Que afirmaciones son correctas sobre el fichero de estado de Terraform**
 - A) El archivo `terraform.tfstate` contiene el mapeo entre el código y la infraestructura real
@@ -177,4 +177,4 @@
 - C) `terraform refresh` actualiza el estado local con los cambios hechos manualmente en la nube
 - D) El estado solo puede guardarse de forma local en el disco del desarrollador
 
-**Solución:** 
+**Solución:A** 
