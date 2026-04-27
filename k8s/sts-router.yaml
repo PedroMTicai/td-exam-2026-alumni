@@ -25,7 +25,7 @@ spec:
     - metadata:
         name: volume
       spec:
-        accessModes: [ReadWriteOnce]
+        accessModes: ["ReadWriteOnce"]
         storageClassName: standard
         resources:
           requests:
